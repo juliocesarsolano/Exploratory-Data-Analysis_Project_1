@@ -56,3 +56,4 @@ png(file = "plot1.png", width=480, height=480, bg="white")
 hist(power$Global_active_power, xlab = "Global Active Power (kilowatts)", ylab = "Frecuency", main = "Global Active Power", 
 col="red")
 dev.off()
+file:///E:/1.%20Data/4.%20COURSES%20E-LEARNING/7_DATA%20SCIENCE%20ANALYSIS%20SPECIALIZATION/4_EXPLORATORY%20DATA%20ANALYSIS/Week_1/Project_1/plot1.png
