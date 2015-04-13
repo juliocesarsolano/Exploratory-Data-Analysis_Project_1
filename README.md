@@ -50,3 +50,4 @@ For each plot you should
 When you are finished with the assignment, push your git repository to GitHub so that the GitHub version of your repository is up to date. There should be four PNG files and four R code files, a total of eight files in the top-level folder of the repo.
 
 The four plots that you will need to construct are shown below. 
+file:///E:/1.%20Data/4.%20COURSES%20E-LEARNING/7_DATA%20SCIENCE%20ANALYSIS%20SPECIALIZATION/4_EXPLORATORY%20DATA%20ANALYSIS/Week_1/Project_1/plot1.png
