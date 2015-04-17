@@ -34,7 +34,8 @@ a refrigerator and a light.
 Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). 
 It corresponds to an electric water-heater and an air-conditioner.
 setwd("D:/1. DATOS/4. COURSES E-LEARNING/EXPLORATORY DATA ANALYSI/Week_1/Project_1")
-power <- read.csv("power_jul.csv")
+power <- read.csv("power.csv")
+power$Datetime <- strptime(paste(power$Date, power$Time), "%d/%m/%Y %H:%M:%S")
 head(power)
         Date     Time Global_active_power Global_reactive_power Voltage
 1 01/02/2007 00:00:00               0.326                 0.128  243.15
