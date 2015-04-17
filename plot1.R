@@ -33,8 +33,9 @@ It corresponds to the laundry room, containing a washing-machine, a tumble-drier
 a refrigerator and a light.
 Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). 
 It corresponds to an electric water-heater and an air-conditioner.
-setwd("D:/1. DATOS/4. COURSES E-LEARNING/EXPLORATORY DATA ANALYSI/Week_1/Project_1")
-power <- read.csv("power.csv")
+
+full_dataset <- read.table(household_power_consumption, sep = ";", header = T, na.strings = "?")
+data<- subset(full_dataset, (full_dataset$Date == "1/2/2007" | full_dataset$Date== "2/2/2007")) 
 power$Datetime <- strptime(paste(power$Date, power$Time), "%d/%m/%Y %H:%M:%S")
 head(power)
         Date     Time Global_active_power Global_reactive_power Voltage
